@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+easyocr
+pdfplumber
+pdf2image
+pillow
+numpy
+python-multipart

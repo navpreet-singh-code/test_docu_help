@@ -1,0 +1,25 @@
+{
+  "fields": [
+    "name",
+    "booking_confirmation_number",
+    "travel_date",
+    "departure_city",
+    "arrival_city",
+    "flight_number",
+    "hotel_name",
+    "check_in_date",
+    "check_out_date",
+    "total_amount",
+    "DOB",
+    "Address",
+    "Blood",
+    "Class_of_travel",
+    "payment_method",
+    "booking_date",
+    "boarding_time",
+    "seat_number",
+    "departure_airport",
+    "arrival_airport",
+    "passport_number"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": {
+    "keywords": ["Name", "Passenger", "Guest", "name" , "given name"],
+    "pattern": "Look for a person's full name, usually consisting of a first and last name given name."
+  },
+  "DOB": {
+    "keywords": ["Date of Birth", "DOB", "Birth Date"],
+    "pattern": "Look for a date in formats like DD-MM-YYYY, YYYY-MM-DD, or Month DD, YYYY, associated with birth."
+  },
+  "booking_confirmation_number": {
+    "keywords": ["Booking ID", "Confirmation No", "Booking Reference", "Confirmation Number"],
+    "pattern": "Look for a combination of letters and numbers, often alphanumeric and between 6 to 20 characters long. It should be clearly labeled with one of the keywords."
+  },
+  "travel_date": {
+    "keywords": ["Date of Travel", "Travel Date", "Departure Date"],
+    "pattern": "Look for a date in formats like DD-MM-YYYY, YYYY-MM-DD, or Month DD, YYYY."
+  },
+  "departure_city": {
+    "keywords": ["From", "Departure", "Origin"],
+    "pattern": "Look for a city name associated with the departure location."
+  },
+  "arrival_city": {
+    "keywords": ["To", "Arrival", "Destination"],
+    "pattern": "Look for a city name associated with the arrival location."
+  },
+  "flight_number": {
+    "keywords": ["Flight No", "Flight Number", "Flight"],
+    "pattern": "Look for a code consisting of two or one letter followed by three or four numbers (e.g., AI 123, 6E 2045)."
+  },
+  "hotel_name": {
+    "keywords": ["Hotel", "Property", "Accommodation"],
+    "pattern": "Look for the name of the hotel or property."
+  },
+  "check_in_date": {
+    "keywords": ["Check-in", "Arrival Date"],
+    "pattern": "Look for a date indicating the start of a hotel stay."
+  },
+  "check_out_date": {
+    "keywords": ["Check-out", "Departure Date"],
+    "pattern": "Look for a date indicating the end of a hotel stay."
+  },
+  "total_amount": {
+    "keywords": ["Total", "Amount Paid", "Grand Total"],
+    "pattern": "Look for a monetary value, often preceded by a currency symbol (e.g., $, ₹, €)."
+  },
+  "Address": {
+    "keywords": ["Address", "adress", "home", "Present Address", "Permanent" , "Place of birth"],
+    "pattern": "Look for address in doc"
+  },
+  "Blood": {
+    "keywords": ["Blood group", "Blood"],
+    "pattern": "Look for blood group"
+  },
+  "Class_of_travel": {
+    "keywords": ["Class", "Travel Class", "Cabin", "Service Class"],
+    "pattern": "Look for terms like Economy, Premium Economy, Business, First Class, often near the flight details."
+  },
+  "payment_method": {
+    "keywords": ["Payment Method", "Paid by", "Card Type", "Payment via"],
+    "pattern": "Look for names of credit/debit cards (Visa, MasterCard), digital wallets (PayPal, Apple Pay), UPI, or terms like 'Cash', 'Net Banking'."
+  },
+  "booking_date": {
+    "keywords": ["Booking Date", "Date Booked", "Reservation Date"],
+    "pattern": "Look for a date in standard formats (DD-MM-YYYY, YYYY-MM-DD, Month DD, YYYY) that is the date the booking was made, not the travel date."
+  },
+  "boarding_time": {
+    "keywords": ["Boarding", "Boarding Time", "Boarding at"],
+    "pattern": "Look for a time value, usually in HH:MM format (e.g., 14:25 or 2:25 PM), often associated with the word 'Boarding'."
+  },
+  "seat_number": {
+    "keywords": ["Seat", "Seat Number", "Seat No"],
+    "pattern": "Look for an alphanumeric code typically consisting of a number followed by a letter (e.g., 12A, 24F) or a row and column indicator."
+  },
+  "departure_airport": {
+    "keywords": ["Departure Airport", "Origin Airport", "From"],
+    "pattern": "Look for a 3-letter airport code (e.g., DEL, JFK, LHR) or the full name of the airport (e.g., Indira Gandhi International Airport)."
+  },
+  "arrival_airport": {
+    "keywords": ["Arrival Airport", "Destination Airport", "To"],
+    "pattern": "Look for a 3-letter airport code (e.g., BOM, SFO, CDG) or the full name of the airport (e.g., Chhatrapati Shivaji Maharaj International Airport)."
+  },
+  "passport_number": {
+    "keywords": ["Passport No", "Passport Number", "Passport #", "Document No"],
+    "pattern": "Look for an alphanumeric code, typically 6 to 9 characters long. It usually starts with a letter followed by numbers (e.g., A1234567), but can sometimes be all numbers or a different combination. It is often labeled clearly."
+  }
+
+}
